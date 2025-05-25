@@ -1,15 +1,26 @@
 # basic-mathematics-operation-
-x=20
-y=30
-print(x+y)
-print(x-y)
-print(x*y)
-print(x/y)
+# take two numbers as input from the user.
+num1=float(input("Enter the firt number:"))
+num2=float(input("Enter the secound number:"))
+#performs the basic mathematical operation on these two numbers: 
+addition=num1+num2
+subtraction=num1-num2
+multiplication=num1*num2
+division=num1/num2
+# displays the result of each opertion on the screen.
+print(addition)
+print(subtraction)
+print(multiplication)
+print(division)
+
 # output 
-50
--10
-600
-0.6666666666666666
+Enter the firt number: 5
+Enter the secound number: 9
+
+14.0
+-4.0
+45.0
+0.5555555555555556
 
 # Creating personalize greeding
 #step1: take user's first name and last name as input
